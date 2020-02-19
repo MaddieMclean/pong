@@ -4,7 +4,7 @@ from kivy import vector
 
 
 class Vector(vector.Vector):
-    # Fixes lack of type hinting causeing issues in Pycharm
+    # Fixes lack of type hinting causing issues in Pycharm
     # noinspection PyBroadException
     def __mul__(self, val) -> Vector:
         try:
